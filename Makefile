@@ -1,10 +1,9 @@
 .PHONY: build push
 
-HUGO_VERSION=0.55.6
+VERSION=0.62.2
 
 build:
 
-	VERSION=0.55.6
 	docker build -t alombarte/hugo --build-arg VERSION=${VERSION} .
 	docker tag alombarte/hugo:latest alombarte/hugo:v${VERSION}
 
