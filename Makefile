@@ -1,6 +1,6 @@
 .PHONY: build push
 
-VERSION=0.62.2
+VERSION=0.67.1
 
 build:
 
