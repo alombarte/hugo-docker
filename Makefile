@@ -1,6 +1,8 @@
 .PHONY: build push
 
-VERSION=0.67.1
+# Pass the version during the build and push:
+# make VERSION=v0.81.0 build
+VERSION=xxx
 
 build:
 

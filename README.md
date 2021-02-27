@@ -12,6 +12,7 @@ To build your hugo site in the default `public` directory:
 	docker run -v "${PWD}:/site" alombarte/hugo hugo
 
 ## Use a different hugo version
+
 Available versions are [here](https://hub.docker.com/r/alombarte/hugo/tags). To add another version just build the image passing the desired version, e.g.:
 
     export VERSION=0.55.6 && docker build -t alombarte/hugo:${VERSION} --build-arg VERSION=${VERSION} .
