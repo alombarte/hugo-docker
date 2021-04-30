@@ -1,6 +1,6 @@
 # Hugo docker
 
-An alpine docker image with hugo, openssh and git. Used in my CI pipelines.
+An alpine docker image with hugo, node (for pipeline functionality), openssh and git. Used in my CI pipelines.
 
 It comes without the `hugo` entrypoint.
 
