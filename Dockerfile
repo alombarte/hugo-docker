@@ -1,4 +1,4 @@
-FROM node:16-alpine
+FROM node:22-alpine
 
 # Pass VERSION on build time
 ARG VERSION="unknown"
