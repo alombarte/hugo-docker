@@ -2,7 +2,7 @@ FROM node:22-alpine
 
 # Pass VERSION on build time
 ARG VERSION="unknown"
-ENV PACKAGE hugo_${VERSION}_Linux-64bit.tar.gz
+ENV PACKAGE=hugo_${VERSION}_Linux-64bit.tar.gz
 
 RUN apk update && apk add \
 	git\
